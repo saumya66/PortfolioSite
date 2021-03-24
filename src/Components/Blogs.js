@@ -3,7 +3,6 @@ import blogs from "../data/blogs.js";
 import { Container, Row, Col } from "react-bootstrap";
 import "./css/Blogs.css";
 import BlogCard from "./BlogCard.js";
-import TwitterContainer from "./TwitterContainer";
 
 function Blogs() {
 	return (
@@ -22,11 +21,6 @@ function Blogs() {
 							))}
 						</div>
 					</Row>
-				</Container>
-				<Container fluid className="cont2 " xs={0}>
-					<Col>
-						<TwitterContainer />
-					</Col>
 				</Container>
 			</Row>
 		</div>

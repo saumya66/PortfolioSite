@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/Stack.css";
-
+import TwitterContainer from "./TwitterContainer";
 import boot from "../assets/logos/tech/boot.png";
 import colab from "../assets/logos/tech/colab.png";
 import cpp from "../assets/logos/tech/cpp.png";
@@ -31,6 +31,7 @@ function Stack() {
 	const techIcons = [
 		{ cp: cpp, nm: "C++" },
 		{ cp: py, nm: "Python" },
+		{ cp: js, nm: "Javascript" },
 		{ cp: java, nm: "Java" },
 		{ cp: react, nm: "React" },
 		{ cp: mongodb, nm: "Mongodb" },
@@ -63,16 +64,10 @@ function Stack() {
 						))}
 					</Row>
 				</Container>
-				<Container fluid className="stack2" xs={0}>
+
+				<Container fluid className="cont2 " xs={0}>
 					<Col>
-						<p className="stats">
-							<a href="https://github.com/saumya66">
-								<img
-									width="350em"
-									src="https://github-readme-stats-eight-theta.vercel.app/api?username=saumya66&show_icons=true&theme=gradient&include_all_commits=true&count_private=true"
-								/>
-							</a>
-						</p>
+						<TwitterContainer />
 					</Col>
 				</Container>
 			</Row>
