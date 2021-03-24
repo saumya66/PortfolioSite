@@ -1,0 +1,25 @@
+.img {
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	margin: 16px;
+}
+
+.name {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+	.img {
+		display: flex;
+		justify-content: space-around;
+		justify-content: center;
+		align-items: center;
+		height: 60px;
+		margin: 22px;
+		margin-right: 10px;
+	}
+}

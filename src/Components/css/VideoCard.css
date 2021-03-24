@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.thumbNail1 {
+	border: rgb(255, 255, 255);
+	border-radius: 20px;
+	height: 250px;
+}
+.videocard {
+	display: flex;
+	height: 250px;
+	width: 360px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: -1rem 0 3rem rgb(26, 25, 25);
+	/*   margin-left: -50px; */
+	margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.videocard {
+		display: flex;
+		height: 150px;
+		width: 260px;
+		background-color: #ffffff;
+		border-radius: 20px;
+		box-shadow: -1rem 0 3rem rgb(26, 25, 25);
+		/*   margin-left: -50px; */
+	}
+}

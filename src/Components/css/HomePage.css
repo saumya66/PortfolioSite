@@ -1,0 +1,38 @@
+.home {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+}
+
+.text1 {
+	font-size: 50px;
+}
+.text2 {
+	font-size: 100px;
+}
+
+.textCol {
+	display: flex;
+	padding-top: 200px;
+}
+.typewriteTexts {
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+	.myImage {
+		height: 0px;
+	}
+
+	.text1 {
+		font-size: 30px;
+	}
+	.text2 {
+		font-size: 70px;
+	}
+	.typewriteTexts {
+		font-size: 20px;
+	}
+}
