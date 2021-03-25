@@ -26,3 +26,7 @@
 .links {
 	padding-right: 50px;
 }
+a.active {
+	color: black;
+	cursor: pointer;
+}

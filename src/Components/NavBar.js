@@ -9,7 +9,16 @@ function NavBar() {
 	return (
 		<Navbar bg="light" expand="lg">
 			<Navbar.Brand>
-				<h5 className="brand">Saumya Ranjan Nayak</h5>
+				<Link
+					activeClass="active"
+					to="home"
+					spy={true}
+					smooth={true}
+					offset={-70}
+					duration={500}
+				>
+					<h5 className="brand">Saumya Ranjan Nayak</h5>
+				</Link>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
