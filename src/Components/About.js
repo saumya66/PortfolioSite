@@ -13,14 +13,15 @@ function About() {
 						<div className="ml-3 mt-5">
 							<p className="abtText1 ">About me</p>
 							<p className="abtText2">
-								Goal : To solve problems here using Neural Nets. 👩‍💻✔
+								Goal : To solve problems on this beautiful rock. 👩‍💻✔
 								<p className="abtText2">
 									I am fascinated and driven by the vision of a future where
 									both man and machine work together , expanding the horizon of
-									the mankind's knowledge and I am keen to make it happen ..
-									Creating Videos and Blogs .🙌✔
+									the mankind's knowledge and I am keen to make it happen.
 								</p>
-								Space Flight Enthusiast. 🚀🚀 Books 📕🤝
+								<h5 className="abtText2">Creating Videos and Blogs.🙌</h5>
+								<h5 className="abtText2">Space Flight Enthusiast. 🚀</h5>
+								Books 📕🤝
 							</p>
 						</div>
 					</Col>

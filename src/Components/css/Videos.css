@@ -10,12 +10,15 @@
 
 .headingVideos {
 	font-size: 60px;
+	text-shadow: 15px 15px 8px #282c34;
+	font-weight: 500;
 	margin-top: 50px;
 	margin-left: 30px;
 }
 
 @media only screen and (max-width: 600px) {
 	.videos {
+		height: 112vh;
 		margin-left: 30px;
 		width: 90vw;
 		border: 2px solid whitesmoke;

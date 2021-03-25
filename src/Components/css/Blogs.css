@@ -14,17 +14,18 @@ body {
 
 .heading1 {
 	font-size: 60px;
-
+	text-shadow: 15px 15px 8px #282c34;
+	font-weight: 500;
 	padding-left: 20px;
 }
 @media only screen and (max-width: 600px) {
 	.heading1 {
-		font-size: 45px;
+		font-size: 50px;
 		color: black;
 	}
 
 	.cont1 {
-		height: 45rem;
+		height: 49rem;
 		width: 90vw;
 
 		margin-bottom: 50px;

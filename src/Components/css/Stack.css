@@ -3,8 +3,11 @@
 .headingTechStack {
 	font-size: 60px;
 	color: black;
-
+	text-shadow: 15px 15px 8px #282c34;
+	font-weight: 500;
 	margin-left: 20px;
+	margin-bottom: 60px;
+	margin-right: 20rem;
 }
 
 .stack1 {
@@ -38,7 +41,7 @@
 		font-size: 50px;
 		color: black;
 		margin-top: 20px;
-
+		margin-right: 0;
 		margin-left: 20px;
 	}
 

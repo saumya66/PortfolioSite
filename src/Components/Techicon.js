@@ -5,7 +5,7 @@ import "./css/Techicon.css";
 function Techicon(props) {
 	return (
 		<div>
-			<Col className="mb-1">
+			<Col className="elem mb-1">
 				<Image className="img" src={props.imgpath} />
 				{"  "}
 				<h5 className="name">{props.title}</h5>

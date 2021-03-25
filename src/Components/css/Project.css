@@ -10,6 +10,8 @@
 }
 
 .headingProject {
+	text-shadow: 15px 15px 8px #282c34;
+	font-weight: 500;
 	font-size: 60px;
 	margin-left: 30px;
 }
@@ -20,7 +22,7 @@
 		margin-left: 30px;
 	}
 	.project {
-		height: 100vh;
+		height: 106vh;
 		width: 90vw;
 		display: flex;
 		margin-left: 20px;
