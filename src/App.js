@@ -22,8 +22,9 @@ class App extends React.Component {
 				<About title="About" dark={true} id="about" />
 				<Stack title="Stack" dark={true} id="stack" />
 				<Project title="Project" dark={true} id="project" />
-				<Blogs title="Blogs" dark={true} id="blogs" />
 				<Videos title="Videos" dark={true} id="videos" />
+				<Blogs title="Blogs" dark={true} id="blogs" />
+
 				<Connect />
 				<Footer />
 			</div>

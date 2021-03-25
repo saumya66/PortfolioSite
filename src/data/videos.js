@@ -1,33 +1,35 @@
 const videos = [
 	{
 		url: "https://www.youtube.com/watch?v=WGbJD31_IHg",
-		thumbNail:
-			"https://i.ytimg.com/an_webp/WGbJD31_IHg/mqdefault_6s.webp?du=3000&sqp=CKj17YIG&rs=AOn4CLAL1BM7fdsCP0prkWebkOIp0h9Dpw",
+		thumbNail: "https://img.youtube.com/vi/WGbJD31_IHg/0.jpg",
+		title: "How to Deploy Any Site in Seconds with Netlify ?",
 	},
 	{
 		url: "https://www.youtube.com/watch?v=Kj7a5VyLF1c&t=131s",
-		thumbNail:
-			"https://i.ytimg.com/an_webp/Kj7a5VyLF1c/mqdefault_6s.webp?du=3000&sqp=CIiK7oIG&rs=AOn4CLD40GbBelmSWY7nZHa-zHPlxDTMIA",
+		thumbNail: "https://img.youtube.com/vi/Kj7a5VyLF1c/0.jpg",
+		title: "Built And Deployed a Full Stack WebApp - PeopleUAdmire | MERN",
 	},
 	{
 		url: "https://www.youtube.com/watch?v=FBMzhdh1G0c&t=3s",
-		thumbNail:
-			"https://i.ytimg.com/an_webp/FBMzhdh1G0c/mqdefault_6s.webp?du=3000&sqp=CLWd7oIG&rs=AOn4CLAwI4th9D0RftA6ACjzZd7yzz7N6A",
+		thumbNail: "https://img.youtube.com/vi/FBMzhdh1G0c/0.jpg",
+		title: "So Good They Can't Ignore You ! ",
 	},
 	{
 		url: "https://www.youtube.com/watch?v=DirCHSLoOcg&t=301s",
-		thumbNail:
-			"https://i.ytimg.com/an_webp/DirCHSLoOcg/mqdefault_6s.webp?du=3000&sqp=CLCC7oIG&rs=AOn4CLCNJh-sMUVUlQBrbupjZPvIiPO60Q",
+		thumbNail: "https://img.youtube.com/vi/DirCHSLoOcg/0.jpg",
+		title:
+			"How to Master a Programming Language or Framework the Right Way ? | My Mistakes",
 	},
 	{
-		url: "https://www.youtube.com/watch?v=DH2qrhlBNwQ",
-		thumbNail:
-			"https://i.ytimg.com/an_webp/DH2qrhlBNwQ/mqdefault_6s.webp?du=3000&sqp=CKSf7oIG&rs=AOn4CLCkn2aKbQUtO_qlyuoYU7aSV9vIQQ",
+		url: "https://youtu.be/Htn9Yfbye3g",
+		thumbNail: "https://img.youtube.com/vi/Htn9Yfbye3g/0.jpg",
+		title: "What is Tutorial Hell and How to Escape it ?  | My Experience",
 	},
+
 	{
 		url: "https://www.youtube.com/watch?v=qlHG5qGPTqo&t=1s",
-		thumbNail:
-			"https://i.ytimg.com/an_webp/qlHG5qGPTqo/mqdefault_6s.webp?du=3000&sqp=CLL_7YIG&rs=AOn4CLAXisQ2mhZi7DXoz9NifSkoobdkmA",
+		thumbNail: "https://img.youtube.com/vi/qlHG5qGPTqo/0.jpg",
+		title: "Useful Resources For a Beginner OpenSource Contributer | GitHub",
 	},
 ];
 export default videos;

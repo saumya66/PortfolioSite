@@ -13,7 +13,11 @@ function Videos() {
 				</Row>
 				<Row className="cardRow">
 					{videos.map((video) => (
-						<VideoCard url={video.url} thumbNail={video.thumbNail} />
+						<VideoCard
+							url={video.url}
+							thumbNail={video.thumbNail}
+							title={video.title}
+						/>
 					))}
 				</Row>
 			</Container>

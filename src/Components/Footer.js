@@ -16,34 +16,48 @@ function Footer() {
 					</Col>
 					<Col className="ml-4">
 						<p className="rowHeading  ">Social</p>
-
-						<li>
-							<i className="fa fa-github" aria-hidden="true"></i> Github
-						</li>
-						<li>
-							<i className="fa fa-twitter" aria-hidden="true"></i> Twitter
-						</li>
-						<li>
-							<i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
-						</li>
-						<li>
-							<i class="fa fa-youtube" aria-hidden="true"></i> YouTube
-						</li>
+						<a target="_blank" href="https://github.com/saumya66">
+							<li>
+								<i className="fa fa-github" aria-hidden="true"></i> Github
+							</li>
+						</a>
+						<a target="_blank" href="https://twitter.com/saumya4real">
+							<li>
+								<i className="fa fa-twitter" aria-hidden="true"></i> Twitter
+							</li>
+						</a>
+						<a target="_blank" href="https://www.linkedin.com/in/saumya66">
+							<li>
+								<i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+							</li>
+						</a>
+						<a
+							target="_blank"
+							href="https://www.youtube.com/channel/UCx-HdHfKu1rXgNIfNaKMsAA"
+						>
+							<li>
+								<i class="fa fa-youtube" aria-hidden="true"></i> YouTube
+							</li>
+						</a>
 					</Col>
 
 					<Col className="ml-4">
 						<p className="rowHeading">Blogs</p>
-
-						<li>
-							<i class="fa fa-medium" aria-hidden="true"></i> Medium
-						</li>
-						<li>
-							<i class="fa fa-hashnode" aria-hidden="true"></i> Hashnode
-						</li>
-						<li></li>
-						<li>
-							<i class="fa fa-dev-to" aria-hidden="true"></i> Dev.to
-						</li>
+						<a target="_blank" href="https://medium.com/saumya-ranjan-nayak">
+							<li>
+								<i class="fa fa-medium" aria-hidden="true"></i> Medium
+							</li>
+						</a>
+						<a target="_blank" href="https://saumya.hashnode.dev/">
+							<li>
+								<i class="fa fa-hashnode" aria-hidden="true"></i> Hashnode
+							</li>
+						</a>
+						<a target="_blank" href="https://dev.to/saumya66">
+							<li>
+								<i class="fa fa-dev-to" aria-hidden="true"></i> Dev.to
+							</li>
+						</a>
 					</Col>
 
 					<Col className="ml-4">

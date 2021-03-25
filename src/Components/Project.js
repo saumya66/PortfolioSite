@@ -11,7 +11,7 @@ function Project() {
 				<Row>
 					<p className="headingProject">Projects </p>
 				</Row>
-				<Row>
+				<Row className="ml-1">
 					{projects.map((project) => (
 						<ProjectCard
 							url={project.url}

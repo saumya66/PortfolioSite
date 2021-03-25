@@ -6,9 +6,14 @@ function BlogCard(props) {
 	return (
 		<Col>
 			<a href={props.url}>
-				<div className="blogcard">
-					<img className="blogthumb" src={props.thumbNail} alt={props.title} />
-				</div>
+				<figure class="snip1529">
+					<img className="thumbNail1" src={props.thumbNail} alt={props.title} />
+
+					<div class="hover">
+						<i class="fa fa-link" aria-hidden="true"></i>
+					</div>
+					<a href={props.url}></a>
+				</figure>
 			</a>
 		</Col>
 	);

@@ -7,9 +7,18 @@ function VideoCard(props) {
 	return (
 		<Col>
 			<a href={props.url}>
-				<div class="videocard">
+				<figure class="snip1529">
 					<img className="thumbNail" src={props.thumbNail} />
-				</div>
+					<figcaption>
+						<h3>{props.title}</h3>
+					</figcaption>
+					<div class="hover">
+						<i class="fa fa-play" aria-hidden="true"></i>
+					</div>
+				</figure>
+				{/* <div class="videocard">
+					<img  src={props.thumbNail} />
+				</div> */}
 			</a>
 		</Col>
 	);

@@ -3,17 +3,9 @@ body {
 	float: left;
 }
 
-.container {
-	height: 200px;
-	width: -800px;
-	top: 60px;
-	left: calc(50% - 300px);
-	display: flex;
-}
 .cont1 {
-	height: 35rem;
+	height: 45rem;
 	width: 95%;
-	margin-top: 50px;
 
 	margin-bottom: 50px;
 	padding-top: 30px;
@@ -22,7 +14,7 @@ body {
 
 .heading1 {
 	font-size: 60px;
-	margin-bottom: 5rem;
+
 	padding-left: 20px;
 }
 @media only screen and (max-width: 600px) {
@@ -30,15 +22,15 @@ body {
 		font-size: 45px;
 		color: black;
 	}
+
 	.cont1 {
-		height: 40rem;
+		height: 45rem;
 		width: 90vw;
-		margin-top: 50px;
-		margin-left: 20px;
+
 		margin-bottom: 50px;
 		padding-top: 30px;
 		overflow: hidden;
-		border: 1px solid whitesmoke;
+		border: 2px solid whitesmoke;
 		border-radius: 40px;
 		box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
 			-5px -5px 30px 7px rgba(0, 0, 0, 0.22);

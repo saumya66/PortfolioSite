@@ -10,16 +10,14 @@ function Blogs() {
 			<Row>
 				<Container fluid className="cont1" xs={12}>
 					<p className="heading1">Recent Blogs </p>
-					<Row className="ml-2">
-						<div class="container">
-							{blogs.map((blog) => (
-								<BlogCard
-									url={blog.url}
-									thumbNail={blog.thumbNail}
-									title={blog.title}
-								/>
-							))}
-						</div>
+					<Row className="">
+						{blogs.map((blog) => (
+							<BlogCard
+								url={blog.url}
+								thumbNail={blog.thumbNail}
+								title={blog.title}
+							/>
+						))}
 					</Row>
 				</Container>
 			</Row>
