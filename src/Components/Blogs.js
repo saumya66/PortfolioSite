@@ -9,7 +9,7 @@ function Blogs() {
 		<div className="blogs ml-3">
 			<Row>
 				<Container fluid className="cont1" xs={12}>
-					<p className="heading1">Recent Blogs </p>
+					<p className="heading1">Blogs </p>
 					<Row className="">
 						{blogs.map((blog) => (
 							<BlogCard

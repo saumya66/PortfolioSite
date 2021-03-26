@@ -58,7 +58,7 @@ function Stack() {
 			<Row>
 				<Container fluid className="stack1" xs={12}>
 					<Row>
-						<h5 className="headingTechStack">Tech Stack I Use</h5>
+						<h5 className="headingTechStack">Tech I am familiar with </h5>
 
 						{techIcons.map((techIcon) => (
 							<TechIcon imgpath={techIcon.cp} title={techIcon.nm} />

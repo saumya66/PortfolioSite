@@ -17,7 +17,7 @@ function Connect() {
 	return (
 		<div className="connect">
 			<Container fluid>
-				<p className="headingC mt-4">Let's Connect </p>
+				<h5 className="headingC mt-4">Let's Connect </h5>
 				<Row>
 					<Col className="col-md-7">
 						<a target="_blank" href="https://www.linkedin.com/in/saumya66">
