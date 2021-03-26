@@ -47,7 +47,7 @@ function Stack() {
 		{ cp: html, nm: "Html" },
 		{ cp: git, nm: "Git" },
 		{ cp: github, nm: "Github" },
-		{ cp: fire, nm: "Firebase" },
+
 		{ cp: colab, nm: "Colab" },
 		{ cp: jupyter, nm: "Jupyter" },
 	];
