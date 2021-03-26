@@ -9,7 +9,6 @@ import cpp from "../assets/logos/tech/cpp.png";
 import css from "../assets/logos/tech/css.png";
 import express from "../assets/logos/tech/express.png";
 import fast from "../assets/logos/tech/fast.png";
-import fire from "../assets/logos/tech/fire.png";
 import git from "../assets/logos/tech/git.png";
 import github from "../assets/logos/tech/github.png";
 import html from "../assets/logos/tech/html.png";
