@@ -35,7 +35,6 @@ function Stack() {
 		{ cp: react, nm: "React" },
 		{ cp: mongodb, nm: "Mongodb" },
 		{ cp: express, nm: "Express" },
-		{ cp: nodejs, nm: "Nodejs" },
 		{ cp: boot, nm: "Bootstrap" },
 		{ cp: tenorflow, nm: "Tensorflow" },
 		{ cp: pytorch, nm: "Pytorch" },
