@@ -1,5 +1,17 @@
 const videos = [
 	{
+		url: "https://youtu.be/Dnd-2BCuhjY",
+		thumbNail: "https://img.youtube.com/vi/Dnd-2BCuhjY/0.jpg",
+		title: "How to Fetch Data from an API with React ?",
+	},
+
+	{
+		url: "https://youtu.be/t9ER-C8Shaw",
+		thumbNail: "https://img.youtube.com/vi/t9ER-C8Shaw/0.jpg",
+		title:
+			"What I found Fascinating this week ? | Google | Cal Newport | Zero To One | LostLeBlanc",
+	},
+	{
 		url: "https://www.youtube.com/watch?v=WGbJD31_IHg",
 		thumbNail: "https://img.youtube.com/vi/WGbJD31_IHg/0.jpg",
 		title: "How to Deploy Any Site in Seconds with Netlify ?",
@@ -19,17 +31,6 @@ const videos = [
 		thumbNail: "https://img.youtube.com/vi/DirCHSLoOcg/0.jpg",
 		title:
 			"How to Master a Programming Language or Framework the Right Way ? | My Mistakes",
-	},
-	{
-		url: "https://youtu.be/Htn9Yfbye3g",
-		thumbNail: "https://img.youtube.com/vi/Htn9Yfbye3g/0.jpg",
-		title: "What is Tutorial Hell and How to Escape it ?  | My Experience",
-	},
-
-	{
-		url: "https://www.youtube.com/watch?v=qlHG5qGPTqo&t=1s",
-		thumbNail: "https://img.youtube.com/vi/qlHG5qGPTqo/0.jpg",
-		title: "Useful Resources For a Beginner OpenSource Contributer | GitHub",
 	},
 ];
 export default videos;
