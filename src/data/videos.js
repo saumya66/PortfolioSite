@@ -1,5 +1,16 @@
 const videos = [
 	{
+		url: "https://www.youtube.com/watch?v=SRi0SZoGXkw",
+		thumbNail: "https://img.youtube.com/vi/SRi0SZoGXkw/0.jpg",
+		title: "Built BitBuzz | Silicon Valley Show !",
+	},
+	{
+		url: "https://www.youtube.com/watch?v=_UUMCeZ6YVo",
+		thumbNail: "https://img.youtube.com/vi/_UUMCeZ6YVo/0.jpg",
+		title: "How to Use Vim ? - Edit like a 'PRO'grammer",
+	},
+
+	{
 		url: "https://youtu.be/Dnd-2BCuhjY",
 		thumbNail: "https://img.youtube.com/vi/Dnd-2BCuhjY/0.jpg",
 		title: "How to Fetch Data from an API with React ?",
@@ -20,17 +31,6 @@ const videos = [
 		url: "https://www.youtube.com/watch?v=Kj7a5VyLF1c&t=131s",
 		thumbNail: "https://img.youtube.com/vi/Kj7a5VyLF1c/0.jpg",
 		title: "Built And Deployed a Full Stack WebApp - PeopleUAdmire | MERN",
-	},
-	{
-		url: "https://www.youtube.com/watch?v=FBMzhdh1G0c&t=3s",
-		thumbNail: "https://img.youtube.com/vi/FBMzhdh1G0c/0.jpg",
-		title: "So Good They Can't Ignore You ! ",
-	},
-	{
-		url: "https://www.youtube.com/watch?v=DirCHSLoOcg&t=301s",
-		thumbNail: "https://img.youtube.com/vi/DirCHSLoOcg/0.jpg",
-		title:
-			"How to Master a Programming Language or Framework the Right Way ? | My Mistakes",
 	},
 ];
 export default videos;

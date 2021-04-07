@@ -8,7 +8,7 @@
 	height: 300px;
 
 	font-size: 16px;
-	line-height: 1.6em;
+	line-height: 1.5em !important;
 	margin: 10px;
 	margin-left: 50px;
 	max-width: 360px;
@@ -24,6 +24,7 @@
 	box-sizing: border-box;
 	-webkit-transition: all 0.25s ease;
 	transition: all 0.25s ease;
+	line-height: 1.5em !important;
 }
 
 .snip1529 img {
@@ -44,6 +45,7 @@
 	margin: 0;
 	padding: 0;
 	font-size: 11px;
+	line-height: 1.5em;
 }
 
 .snip1529 h3 {

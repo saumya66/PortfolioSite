@@ -37,7 +37,7 @@ function Stack() {
 		{ cp: express, nm: "Express" },
 		{ cp: boot, nm: "Bootstrap" },
 		{ cp: tenorflow, nm: "Tensorflow" },
-		{ cp: pytorch, nm: "Pytorch" },
+
 		{ cp: fast, nm: "FastAI" },
 		{ cp: matplot, nm: "Matplotlib" },
 		{ cp: numpy, nm: "NumPy" },

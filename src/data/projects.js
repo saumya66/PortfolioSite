@@ -1,5 +1,13 @@
 const projects = [
 	{
+		url: "https://bitbuzz.netlify.app/",
+		githubUrl: "https://github.com/saumya66/BitBuzz-SiliconValley",
+		thumbNail: "https://miro.medium.com/max/875/1*64Cf_t35SwfpTe6r46AbRA.png",
+		title: "BitBuzz",
+		desc:
+			"Bibuzz constantly fetches the rate of Bitcoin and produces sound when it dips.",
+	},
+	{
 		url: "https://saumya66.netlify.app",
 		githubUrl: "https://github.com/saumya66/PortfolioSite",
 		thumbNail:
