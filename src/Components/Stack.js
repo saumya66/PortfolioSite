@@ -14,6 +14,7 @@ import github from "../assets/logos/tech/github.png";
 import html from "../assets/logos/tech/html.png";
 import java from "../assets/logos/tech/java.png";
 import js from "../assets/logos/tech/js.png";
+import js from "../assets/logos/tech/ts.png";
 import jupyter from "../assets/logos/tech/jupyter.png";
 import matplot from "../assets/logos/tech/matplot.png";
 import mongodb from "../assets/logos/tech/mongodb.png";
