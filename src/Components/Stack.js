@@ -31,13 +31,14 @@ function Stack() {
 		{ cp: cpp, nm: "C++" },
 		{ cp: py, nm: "Python" },
 		{ cp: js, nm: "Javascript" },
+		{ cp: ts, nm: "TypeScript" },
 		{ cp: java, nm: "Java" },
 		{ cp: react, nm: "React" },
 		{ cp: mongodb, nm: "Mongodb" },
 		{ cp: express, nm: "Express" },
 		{ cp: boot, nm: "Bootstrap" },
 		{ cp: tenorflow, nm: "Tensorflow" },
-
+                
 		{ cp: fast, nm: "FastAI" },
 		{ cp: matplot, nm: "Matplotlib" },
 		{ cp: numpy, nm: "NumPy" },
