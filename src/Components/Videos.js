@@ -8,8 +8,11 @@ function Videos() {
 	return (
 		<div className="videos">
 			<Container fluid className="  ">
-				<Row>
+				<Row className="heading-row">
 					<p className="headingVideos">Videos </p>
+					<a target="_blank"  href="https://saumya.hashnode.dev/">
+					<p className="seemore">+ See More </p>
+					</a>
 				</Row>
 				<Row className="cardRow">
 					{videos.map((video) => (

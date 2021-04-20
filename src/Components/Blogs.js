@@ -7,9 +7,13 @@ import BlogCard from "./BlogCard.js";
 function Blogs() {
 	return (
 		<div className="blogs ml-3">
-			<Row>
 				<Container fluid className="cont1" xs={12}>
+			<Row className="heading-row">
 					<p className="heading1">Blogs </p>
+					<a target="_blank" href="https://www.youtube.com/channel/UCx-HdHfKu1rXgNIfNaKMsAA/videos">
+					<p className="seemore-blog">+ See More </p>
+					</a>
+						</Row>
 					<Row className="">
 						{blogs.map((blog) => (
 							<BlogCard
@@ -20,7 +24,6 @@ function Blogs() {
 						))}
 					</Row>
 				</Container>
-			</Row>
 		</div>
 	);
 }

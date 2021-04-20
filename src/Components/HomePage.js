@@ -22,13 +22,16 @@ function HomePage() {
 											1000,
 											"Youtube Creator",
 											1000,
-											"Full Stack Web",
+											"Full Stack Engineer",
+											1000,
+											"Learning to Create Softwares",
 											1000,
 											"Machine Learning",
 											1000,
 											"Deep Learning",
 											1000,
-											"Learning to Create Softwares",
+										
+											"Tech Blogger",
 											1000,
 										]}
 									/>

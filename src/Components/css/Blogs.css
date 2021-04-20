@@ -2,7 +2,10 @@ body {
 	font-family: "Open Sans", sans-serif;
 	float: left;
 }
-
+.seemore-blog{
+	margin-right: 70px;
+	margin-top: 50px;
+    }
 .cont1 {
 	height: 45rem;
 	width: 95%;

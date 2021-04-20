@@ -8,8 +8,11 @@ function Project() {
 	return (
 		<div className="project">
 			<Container fluid className="mt-1">
-				<Row>
+				<Row className="heading-row">
 					<p className="headingProject">Projects </p>
+					<a target="_blank"  href="https://github.com/saumya66">
+					<p className="seemore-project">+ See More </p>
+					</a>
 				</Row>
 				<Row className="cardRow ">
 					{projects.map((project) => (
