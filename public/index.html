@@ -1,26 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/me1.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Hi, I am Saumya ! Checkout my beautiful place on the internet.🧡 "
-    />
-    
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-     
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
- 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-     
-    <title>Saumya Ranjan Nayak</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/me1.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Hi, I am Saumya ! Checkout my beautiful place on the internet.🧡 " />
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+    integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+    formbutton("create", {
+      action: "https://formspree.io/mvodzrbz",
+      title: "Let's Talk 👋",
+      theme: "minimal",
+      buttonImg: "<i class='fa fa-paper-plane' style='font-size:30px'/>",
+      fields: [{
+        name: "name",
+        type: "text",
+        label: "Your Name",
+        required: true,
+
+      },
+      {
+        name: "email",
+        type: "email",
+        label: "Your Email",
+        required: true
+      },
+      {
+        name: "Message",
+        type: "textarea"
+      },
+      {
+        type: "submit",
+        style: {
+          submitLabel: {
+            marginTop: "18px"
+          },
+        }
+      },],
+      styles: {
+        button: {
+          backgroundColor: "#000000",
+          fill: "#DAE8FF",
+        },
+        shim: {
+          backgroundColor: "rgba(0,0,0,0)"
+        },
+        title: {
+          fontFamily: "Open Sans",
+          fontSize: "2.8em",
+          backgroundColor: "#000000",
+
+        },
+        modal: {
+          background: "#DAE8FF",
+        },
+        description: {
+          backgroundColor: "#fcf5e7"
+        },
+        input: {
+          backgroundColor: "#FFFFFF",
+          boxShadow: "0px 0px 3px rgba(0,0,0,0.1)",
+          border: "1px solid rgba(0,0,0,0.1)"
+        },
+        submitLabel: {
+          marginTop: "18px"
+        },
+        closeButton: {
+          display: "none"
+        }
+      },
+    });
+  </script>
+  <title>Saumya Ranjan Nayak</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+</body>
+
 </html>

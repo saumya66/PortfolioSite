@@ -9,14 +9,14 @@ import Blogs from "./Components/Blogs.js";
 import Videos from "./Components/Videos.js";
 import Connect from "./Components/Connect.js";
 import Footer from "./Components/Footer.js";
-
+import ContactMe from "./Components/ContactMe.js";
 import NavBar from "./Components/NavBar.js";
 
 class App extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				<NavBar />
+ 				<NavBar />
 				<HomePage title="Home" dark={true} id="home" />
 
 				<About title="About" dark={true} id="about" />
