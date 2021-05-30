@@ -1,5 +1,5 @@
 import React from "react";
-import backImg from "../assets/me1.png";
+import backImg from "../assets/me1.webp";
 import { Row, Col, Image, Container } from "react-bootstrap";
 import "./css/HomePage.css";
 import Typical from "react-typical";
@@ -24,13 +24,13 @@ function HomePage() {
 											1000,
 											"Full Stack Engineer",
 											1000,
-											"Learning to Create Softwares",
+											"Learning to Build Products",
 											1000,
 											"Machine Learning",
 											1000,
 											"Deep Learning",
 											1000,
-										
+
 											"Tech Blogger",
 											1000,
 										]}
@@ -39,7 +39,13 @@ function HomePage() {
 							</div>
 						</Col>
 						<Col xs={{ order: "last" }} xs={0} md={5}>
-							<Image className="myImage" src={backImg} alt="" height={650} />
+							<Image
+								className="myImage"
+								loading="lazy"
+								src={backImg}
+								alt=""
+								height={650}
+							/>
 						</Col>
 					</Row>
 				</Container>

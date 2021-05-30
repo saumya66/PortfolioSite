@@ -10,8 +10,11 @@ function Videos() {
 			<Container fluid className="  ">
 				<Row className="heading-row">
 					<p className="headingVideos">Videos </p>
-					<a target="_blank"  href="https://saumya.hashnode.dev/">
-					<p className="seemore">+ See More </p>
+					<a
+						target="_blank"
+						href="https://www.youtube.com/channel/UCx-HdHfKu1rXgNIfNaKMsAA/videos"
+					>
+						<p className="seemore">+ See More </p>
 					</a>
 				</Row>
 				<Row className="cardRow">

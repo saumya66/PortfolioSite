@@ -1,11 +1,24 @@
 const videos = [
-	
-	
-	
 	{
-		url: "https://www.youtube.com/watch?v=ZsALd2o4ntE",
-		thumbNail: "https://img.youtube.com/vi/ZsALd2o4ntE/0.jpg",
-		title:"Git & Github For Beginners !",
+		url: "https://www.youtube.com/watch?v=bJ-hhTHaqgM",
+		thumbNail: "https://img.youtube.com/vi/bJ-hhTHaqgM/0.jpg",
+		title: "The New & Improved Sublime Text 4 ",
+	},
+	{
+		url: "https://youtu.be/GPR7OQBx2jQ",
+		thumbNail: "https://img.youtube.com/vi/GPR7OQBx2jQ/0.jpg",
+		title: "Get Started With React ! | React Series #1",
+	},
+
+	{
+		url: "https://youtu.be/uTmWNumMSnM",
+		thumbNail: "https://img.youtube.com/vi/uTmWNumMSnM/0.jpg",
+		title: "10 Sites To Get Remote Developer Jobs !",
+	},
+	{
+		url: "https://youtu.be/9y-boICNJSA",
+		thumbNail: "https://img.youtube.com/vi/9y-boICNJSA/0.jpg",
+		title: "Relational & Non-Relational Database - Difference !",
 	},
 	{
 		url: "https://www.youtube.com/watch?v=4TnxVkWb6ug&t=1s",
@@ -17,25 +30,5 @@ const videos = [
 		thumbNail: "https://img.youtube.com/vi/sUF7qa0cvOk/0.jpg",
 		title: "Programmed for 13 HOURS Straight !",
 	},
-	{
-		url: "https://www.youtube.com/watch?v=D4Hjvi8jLOw",
-		thumbNail: "https://img.youtube.com/vi/D4Hjvi8jLOw/0.jpg",
-		title: "How To Automate Deployment Every Time You Make A Change !!",
-	},
-	{
-		url: "https://www.youtube.com/watch?v=SRi0SZoGXkw",
-		thumbNail: "https://img.youtube.com/vi/SRi0SZoGXkw/0.jpg",
-		title: "Built BitBuzz | Silicon Valley Show !",
-	},
-	{
-		url: "https://www.youtube.com/watch?v=_UUMCeZ6YVo",
-		thumbNail: "https://img.youtube.com/vi/_UUMCeZ6YVo/0.jpg",
-		title: "How to Use Vim ? - Edit like a 'PRO'grammer",
-	},
-
-	
-
- 
-	 
 ];
 export default videos;

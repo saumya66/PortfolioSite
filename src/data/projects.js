@@ -1,11 +1,26 @@
 const projects = [
 	{
+		url: "https://hashnode-uiclone.vercel.app/",
+		githubUrl: "https://github.com/saumya66/HashnodeHome-Clone",
+		thumbNail:
+			"https://user-images.githubusercontent.com/60464414/120117442-dfe72280-c1aa-11eb-9dba-dc8b4afc1144.PNG",
+		title: "Hashnode React Clone",
+		desc: "A Full React Clone of Hashnode's Home Feed UI built in a day.",
+	},
+	{
 		url: "https://bitbuzz.netlify.app/",
 		githubUrl: "https://github.com/saumya66/BitBuzz-SiliconValley",
 		thumbNail: "https://miro.medium.com/max/875/1*64Cf_t35SwfpTe6r46AbRA.png",
 		title: "BitBuzz",
-		desc:
-			"Bibuzz constantly fetches the rate of Bitcoin and produces sound when it dips.",
+		desc: "Bibuzz constantly fetches the rate of Bitcoin and produces sound when it dips.",
+	},
+	{
+		url: "https://songup.netlify.app/",
+		githubUrl: "https://github.com/saumya66/SongUp---Full-Stack",
+		thumbNail:
+			"https://user-images.githubusercontent.com/60464414/120117257-d7421c80-c1a9-11eb-8c97-84354a1dfd19.PNG",
+		title: "Song Up",
+		desc: "A Full Stack Webapp with features like JWT Authentication & Song Upload built in a day for a Coding Interview.",
 	},
 	{
 		url: "https://saumya66.netlify.app",
@@ -20,27 +35,7 @@ const projects = [
 		githubUrl: "https://github.com/saumya66/PeopleUAdmire",
 		thumbNail: "https://miro.medium.com/max/656/0*LJRgrBdPqBJvh8fe",
 		title: "People U Admire",
-		desc:
-			"Created PeopleUAdmire a Full Stack Responsive WebApp using MongoDB, ExpressJS, React, React-Redux and NodeJS, used by 100s of people.",
-	},
-	{
-		url: "https://miro.medium.com/max/656/1*kKDMvAoCi0l5oBGw3Y4hNQ.png",
-		githubUrl:
-			"https://github.com/saumya66/Machine-and-Deep-Learning-/blob/main/Fast.AI/TESLAorNOT.ipynb",
-		thumbNail: "https://miro.medium.com/max/656/1*kKDMvAoCi0l5oBGw3Y4hNQ.png",
-		title: "TESLA or NOT",
-		desc:
-			"Wrote and Trained a Deep Learning Model on scraped data which learned to differentiate a Tesla from ordinary cars.",
-	},
-	{
-		url:
-			"https://www.thecsengineer.com/2020/11/how-i-made-my-first-software-using-tkinter-python%20.html",
-		githubUrl: "https://github.com/saumya66/ProductivitySearch",
-		thumbNail:
-			"https://camo.githubusercontent.com/ffeab488266942974ba3f81c7b84c569d26b7c396498596d93b132599937159a/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d336374394872654e48356b2f58377334655a684b6f39492f4141414141414141426c4d2f65586662364e6b576f443061584d6872553669307331626c326f574f6c38397241434c63424741735948512f773634302d683435322f64662e504e47",
-		title: "ProductiveSearch",
-		desc:
-			"First software I made using Python & Tkinter which automatically opens up and shows search results on browser thus removing various distractions in the way.",
+		desc: "Created PeopleUAdmire a Full Stack Responsive WebApp using MongoDB, ExpressJS, React, React-Redux and NodeJS, used by 100s of people.",
 	},
 ];
 

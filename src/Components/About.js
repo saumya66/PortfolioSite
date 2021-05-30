@@ -19,14 +19,22 @@ function About() {
 									both man and machine work together , expanding the horizon of
 									the mankind's knowledge and I am keen to make it happen.
 								</p>
-								<h5 className="abtText2">Creating Videos and Blogs.🙌</h5>
+								<h5 className="abtText2">
+									Creating Products, Videos and Blogs.🙌
+								</h5>
 								<h5 className="abtText2">Space Flight Enthusiast. 🚀</h5>
 								Books 📕🤝
 							</p>
 						</div>
 					</Col>
 					<Col className="picCol d-flex justify-content-center " xs={0} md={4}>
-						<Image className="image" src={pic} alt="" height={500} />
+						<Image
+							className="image"
+							loading="lazy"
+							src={pic}
+							alt=""
+							height={500}
+						/>
 					</Col>
 				</Row>
 			</Container>

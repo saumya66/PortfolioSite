@@ -8,7 +8,7 @@ function VideoCard(props) {
 		<Col>
 			<a href={props.url}>
 				<figure class="snip1529">
-					<img className="thumbNail" src={props.thumbNail} />
+					<img className="thumbNail" loading="lazy" src={props.thumbNail} />
 					<figcaption>
 						<h3>{props.title}</h3>
 					</figcaption>

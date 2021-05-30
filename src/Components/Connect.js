@@ -22,6 +22,7 @@ function Connect() {
 					<Col className="col-md-7">
 						<a target="_blank" href="https://www.linkedin.com/in/saumya66">
 							<img
+								loading="lazy"
 								className="icon-item mr-5 mt-4"
 								src={linkedin}
 								alt=""
@@ -30,6 +31,7 @@ function Connect() {
 						</a>
 						<a target="_blank" href="https://twitter.com/saumya4real">
 							<img
+								loading="lazy"
 								className="icon-item mr-5 mt-4"
 								src={twitter}
 								alt=""
@@ -38,6 +40,7 @@ function Connect() {
 						</a>
 						<a target="_blank" href="https://github.com/saumya66">
 							<img
+								loading="lazy"
 								className="icon-item mr-5 mt-4"
 								src={github}
 								alt=""
@@ -49,6 +52,7 @@ function Connect() {
 							href="https://www.youtube.com/channel/UCx-HdHfKu1rXgNIfNaKMsAA"
 						>
 							<img
+								loading="lazy"
 								className="icon-item mr-5 mt-4"
 								src={youtube}
 								alt=""
@@ -57,6 +61,7 @@ function Connect() {
 						</a>
 						<a target="_blank" href="https://medium.com/saumya-ranjan-nayak">
 							<img
+								loading="lazy"
 								className="icon-item mr-5 mt-4"
 								src={medium}
 								alt=""
@@ -65,6 +70,7 @@ function Connect() {
 						</a>
 						<a target="_blank" href="https://saumya.hashnode.dev/">
 							<img
+								loading="lazy"
 								className="icon-item mr-5 mt-4"
 								src={hashnode}
 								alt=""
@@ -73,6 +79,7 @@ function Connect() {
 						</a>
 						<a target="_blank" href="https://dev.to/saumya66">
 							<img
+								loading="lazy"
 								className="icon-item mr-5 mt-4"
 								src={dev}
 								alt=""
@@ -84,6 +91,7 @@ function Connect() {
 							href="https://stackoverflow.com/users/13484967/saumya"
 						>
 							<img
+								loading="lazy"
 								className="icon-item mr-5 mt-4"
 								src={stack}
 								alt=""
@@ -95,6 +103,7 @@ function Connect() {
 							href="https://www.quora.com/profile/Saumya-Ranjan-Nayak-14"
 						>
 							<img
+								loading="lazy"
 								className="icon-item mr-5 mt-4"
 								src={quora}
 								alt=""
@@ -103,7 +112,7 @@ function Connect() {
 						</a>
 					</Col>
 					<Col className="col-md-5 mt-3 ">
-						<img src={social} alt="" height={400} />
+						<img loading="lazy" src={social} alt="" height={400} />
 					</Col>
 				</Row>
 			</Container>

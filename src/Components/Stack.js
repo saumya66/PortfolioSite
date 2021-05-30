@@ -29,26 +29,24 @@ import TechIcon from "./Techicon";
 
 function Stack() {
 	const techIcons = [
-		{ cp: cpp, nm: "C++" },
-		{ cp: py, nm: "Python" },
-		{ cp: js, nm: "Javascript" },
-		{ cp: ts, nm: "TypeScript" },
-		{ cp: java, nm: "Java" },
 		{ cp: react, nm: "React" },
+		{ cp: ts, nm: "TypeScript" },
+		{ cp: js, nm: "Javascript" },
 		{ cp: mongodb, nm: "Mongodb" },
 		{ cp: express, nm: "Express" },
 		{ cp: boot, nm: "Bootstrap" },
-		{ cp: tenorflow, nm: "Tensorflow" },
-                
-		{ cp: fast, nm: "FastAI" },
-		{ cp: matplot, nm: "Matplotlib" },
-		{ cp: numpy, nm: "NumPy" },
-		{ cp: scik, nm: "Scikit Learn" },
+		{ cp: cpp, nm: "C++" },
+		{ cp: py, nm: "Python" },
+		{ cp: java, nm: "Java" },
 		{ cp: css, nm: "Css" },
 		{ cp: html, nm: "Html" },
 		{ cp: git, nm: "Git" },
 		{ cp: github, nm: "Github" },
-
+		{ cp: tenorflow, nm: "Tensorflow" },
+		{ cp: fast, nm: "FastAI" },
+		{ cp: matplot, nm: "Matplotlib" },
+		{ cp: numpy, nm: "NumPy" },
+		{ cp: scik, nm: "Scikit Learn" },
 		{ cp: colab, nm: "Colab" },
 		{ cp: jupyter, nm: "Jupyter" },
 	];
